@@ -470,10 +470,9 @@
   display: grid;
   width: 100%;
   grid-template-columns: 22% 78%;
-  padding: 0 1.5vw;
-margin: 3.4vh 0;
-  margin-bottom: 7vh;
-  font-size: 1vw;
+  padding: 0 max(15px,1.5vw);
+margin:3.4vh 0  min(7vh,4rem) 0;
+  font-size: max(10px,1vw);
 }
 .article-img {
   border-radius: 15px;
@@ -597,17 +596,16 @@ margin: 3.4vh 0;
 }
 
 .card-container{
-  padding: 1.5vw;
+  padding: max(15px,1.5vw);
   background: white;
   border-radius: 15px;
-  height: calc(22vw + 10vh);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   
 }
-.card-container >p{
-  font-size: .9vw;
+.card-container p{
+  font-size: max(10px,1vw);
 
 
 }
@@ -620,6 +618,10 @@ margin: 3.4vh 0;
 }
 .cols-container{
   background: #9e9e9e;
+  display: grid;
+  grid-template-columns: 64% 36%;
   height: 100vh;
+  min-width: 1000px;
+  align-items: center;
 
 }
