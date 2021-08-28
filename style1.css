@@ -603,7 +603,51 @@ margin:3.4vh 0  min(7vh,4rem) 0;
   flex-direction: column;
   justify-content: center;
   
-  animation: left-to-right 1s ease-in;
+}
+#card-1{
+
+  animation: left-to-right 2s ease;
+}
+@keyframes left-to-right{
+  0%{
+    transform: translateX(-30%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+  
+
+}
+
+#card-2{
+  
+
+  animation: left-to-right-1 2s ease;
+}
+@keyframes left-to-right-1{
+  0%{
+    transform: translateX(-40%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+  
+
+}
+#card-3{
+
+  animation: left-to-right-2 2s ease;
+}
+
+@keyframes left-to-right-2{
+  0%{
+    transform: translateX(-50%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+  
+
 }
 #title{
 
